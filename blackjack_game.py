@@ -1,14 +1,12 @@
 #Tasks
 
-#[DONE]Play multiple rounds back to back with updated money
-
-#[DONE]Check bets based on current money
-
-#[DONE]if user bets improperly give them another chance
-
-#Alter current money
-
-#[DONE]display cards of dealers hand
+ #Bets are placed at the start of each round, the payoff ratio per bet is 2:1
+ #Player is randomly dealt two cards
+ #KING, QUEEN, JACK are each worth 10 points
+ #ACE cards are worth 1 or 11 points, the more favourable valuation for your hand is automatically chosen
+ #Player is offered the choice of HIT or STAND after cards are dealt
+ #If the value of the player's hand exceeds 21, the round and wager are lost
+ #If the player chooses to stand, their hand is evaluated against a randomly generated dealer's hand
 
 import random as r
 
